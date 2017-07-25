@@ -1,0 +1,29 @@
+{
+  "name": "hdname",
+  "version": "0.1.0",
+  "description": "Tool for turning a name into an HDWallet compatible index.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha",
+    "prepublish": "coffee -o lib -c src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youbase/hdname.git"
+  },
+  "keywords": [
+    "hdwallet",
+    "bip32"
+  ],
+  "author": "Josh Robinson <josh@youbase.io> (https://youbase.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/youbase/hdname/issues"
+  },
+  "homepage": "https://github.com/youbase/hdname#readme",
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "coffee-script": "^1.12.7",
+    "mocha": "^3.4.2"
+  }
+}
